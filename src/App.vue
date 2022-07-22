@@ -1,18 +1,18 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App" />
-  <Title msg="First CLI" />
+  <BaseTitle msg="First CLI" />
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import Title from './components/Title.vue'
+import BaseTitle from './components/BaseTitle.vue'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    Title,
+    BaseTitle,
   }
 }
 </script>
